@@ -1,5 +1,9 @@
 # CurrencyConverterApp
 
+npm i @ng-bootstrap/ng-bootstrap
+npm install currency-flags
+npm i bootstrap-icons
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
 ## Development server
