@@ -6,7 +6,7 @@
 
 $blue: rgba(85, 88, 218, 1);
 $red: #ff5858;
-$bright-blue: rgba(95, 209, 249, 1);
+$bright-blue: rgba(34, 193, 195);
 
 $dirty-white: #efefefff;
 $brown: #3a3636;
@@ -25,12 +25,14 @@ html {
   padding: 0;
   margin: 0;
 
-  background: radial-gradient(
-    circle farthest-corner at 12.3% 19.3%,
-    $blue 0%,
-    $bright-blue 100.2%
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(172, 189, 101, 1) 63%,
+    rgba(253, 187, 45, 1) 100%
   );
 }
 
 /* Importing Bootstrap SCSS file. */
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";

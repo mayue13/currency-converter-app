@@ -5,9 +5,9 @@ import {
   OnInit,
   ViewChild,
 } from '@angular/core';
-import { COMMON } from '../../constants/common';
 import { Currency } from '../../models/currency';
 import { CurrencyService } from '../../services/currency.service';
+import { COMMON } from './../../constants/common';
 
 @Component({
   selector: 'app-currency-selector',
@@ -17,7 +17,7 @@ import { CurrencyService } from '../../services/currency.service';
 export class CurrencySelectorComponent implements OnInit {
   public edited = true;
   @Input() changeCurrency: any;
-  @Input() selectorId: any;
+  @Input() selectorId: string = COMMON.EMPTY_STRING;
 
   currencies: Currency[] = [];
 

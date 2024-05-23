@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { CurrencyDashboardComponent } from './components/currency-dashboard/currency-dashboard.component';
 import { CurrenciesComponent } from './components/currency-selector/currencies/currencies.component';
 import { CurrencySelectorComponent } from './components/currency-selector/currency-selector.component';
+import { SocialMediaComponent } from './components/social-media/social-media.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CurrencySelectorComponent } from './components/currency-selector/curren
     CurrencyDashboardComponent,
     CurrencySelectorComponent,
     CurrenciesComponent,
+    SocialMediaComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],

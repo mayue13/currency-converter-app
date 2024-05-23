@@ -66,7 +66,12 @@ $brown: #3a3636;
   margin: auto;
   padding: 20px;
 
-  background-color: $dirty-white;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(183, 186, 168, 1) 63%,
+    rgba(253, 187, 45, 1) 100%
+  );
   width: 300px;
   height: auto;
   box-shadow: 0 0 10px 1px rgba(0 0 0 / 20%);
@@ -273,25 +278,35 @@ $brown: #3a3636;
   font-weight: 400;
   color: #3a3636;
 }
+
 .madeBy {
-  a {
-    color: white;
-    &:hover {
-      color: $dirty-white;
-    }
-  }
   color: white;
   position: absolute;
-  right: 15px;
-  bottom: -35px;
-
-  @include extra-small {
+  bottom: -50px;
+  right: 5px;
+}
+.madeBy a {
+  color: white;
+}
+.madeBy a:hover {
+  color: black;
+}
+@media screen and (max-width: 576px) {
+  .madeBy {
     color: black;
-    a {
-      color: black;
-      &:hover {
-        color: #3a3636;
-      }
-    }
   }
+  .madeBy a {
+    color: black;
+  }
+  .madeBy a:hover {
+    color: #3a3636;
+  }
+}
+
+.war-msg {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  font-weight: 400;
+  color: #3a3636;
 }

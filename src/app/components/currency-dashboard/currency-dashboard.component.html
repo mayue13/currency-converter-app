@@ -1,6 +1,6 @@
 <div class="container">
   <div class="card">
-    <h1>Currency Converter</h1>
+    <h1>Currency <i class="bi bi-arrow-repeat"></i> Converter</h1>
     <div *ngIf="isDataAvailable">
       <form name="form-exchange" (ngSubmit)="onSubmit()">
         <div
@@ -38,7 +38,7 @@
           <div></div>
 
           <button class="switch-btn" type="button" (click)="switchCurrencies()">
-            <i class="bi bi-arrow-repeat"></i>
+            <i class="bi bi-arrow-left-right"></i>
           </button>
 
           <label>To</label>
@@ -81,13 +81,19 @@
       <h3>Failed to load exchange rate from the server</h3>
     </div>
 
+    <div class="war-msg">
+      <i class="bi bi-info-circle-fill">
+        We use the mid-market rate for our Converter. This is for informational
+        purposes only.</i
+      >
+    </div>
+
     <div class="lastUpdate" *ngIf="isResult">
       Last updated: {{ lastUpdate }}
     </div>
 
     <div class="madeBy">
-      Made by
-      <a href="" target="_blank">Mayur</a>
+      <app-social-media></app-social-media>
     </div>
   </div>
 </div>
