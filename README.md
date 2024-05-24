@@ -13,7 +13,11 @@
 
 # CurrencyConverterApp
 
+<img src='./src/assets/ccapp.PNG'>
 
+<a href="https://currencycconverter.vercel.app/" target="_blank">
+    <h4>Demo</h4>
+  </a>
 
 <h4>Node Packages</h4>
 
@@ -21,9 +25,4 @@
   <li>npm i @ng-bootstrap/ng-bootstrap</li>
   <li>npm install currency-flags</li>
   <li>npm i bootstrap-icons</li>
-</ul> 
-
-
-
-
-
+</ul>
