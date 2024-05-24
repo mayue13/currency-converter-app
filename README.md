@@ -13,8 +13,7 @@
 </br>
 <img src='./src/assets/ccapp.PNG'>
 
-<h3> You can visit this website <a href="https://currencycconverter.vercel.app/" target="_blank">    <h4>Demo</h4>  </a></h3>
-
+<h4> You can visit this website <a href="https://currencycconverter.vercel.app/" target="_blank">Demo</a></h4>
 
 <h4>Node Packages</h4>
 
