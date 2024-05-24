@@ -13,7 +13,16 @@
 
 # CurrencyConverterApp
 
-npm i @ng-bootstrap/ng-bootstrap
-npm install currency-flags
-npm i bootstrap-icons
+
+<h4>Node Packages</h4>
+
+<ul style="list-style-type:disc;">
+  <li>npm i @ng-bootstrap/ng-bootstrap</li>
+  <li>npm install currency-flags</li>
+  <li>npm i bootstrap-icons</li>
+</ul> 
+
+
+
+
 
