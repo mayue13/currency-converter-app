@@ -10,14 +10,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
-
-# CurrencyConverterApp
-
+</br>
 <img src='./src/assets/ccapp.PNG'>
 
-<a href="https://currencycconverter.vercel.app/" target="_blank">
-    <h4>Demo</h4>
-  </a>
+<h3> You can visit this website <a href="https://currencycconverter.vercel.app/" target="_blank">    <h4>Demo</h4>  </a></h3>
+
 
 <h4>Node Packages</h4>
 
