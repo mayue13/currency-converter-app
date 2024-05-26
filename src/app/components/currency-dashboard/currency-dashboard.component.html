@@ -81,15 +81,20 @@
       <h3>Failed to load exchange rate from the server</h3>
     </div>
 
-    <div class="war-msg">
+    <!-- <div class="war-msg">
       <i class="bi bi-info-circle-fill">
         We use the mid-market rate for our Converter. This is for informational
         purposes only.</i
       >
-    </div>
+    </div> -->
 
     <div class="lastUpdate" *ngIf="isResult">
       Last updated: {{ lastUpdate }}
+      <br />
+      <i class="bi bi-info-circle-fill war-msg">
+        We use the mid-market rate for our Converter. This is for informational
+        purposes only.</i
+      >
     </div>
 
     <div class="madeBy">
